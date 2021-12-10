@@ -1,9 +1,9 @@
 var expect = chai.expect;
 
-describe('newDeck',function(){
+describe('newDeck',function() {
     describe('#newDeck',function(){
         it('should output an array of 52 cards in order',function(){
-            var x = newDeck([])
+            var x = newDeck([]);
             expect(x).to.equal('an array of 52 cards in order cards')
         });
         it('Should throw an error if there are not 52 values in the array',function(){
